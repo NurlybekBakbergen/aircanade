@@ -1,0 +1,125 @@
+@import url('https://fonts.cdnfonts.com/css/gotham-pro');
+
+html, body{
+    font-family: 'Gotham Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('/static/images/CL-Background.png');
+}
+
+.logo {
+    position: absolute;
+    width: 201px;
+    height: 28px;
+    left: 122px;
+    top: 25px;
+}
+
+.cloud1 {
+    position: absolute;
+    width: 444px;
+    height: 394px;
+    left: -81px;
+    top: -47px;
+}
+
+.cloud2 {
+    position: absolute;
+    width: 444px;
+    height: 305.12px;
+    left: 0;
+    bottom: 0;
+}
+
+.cloud3 {
+    position: absolute;
+    width: 610px;
+    height: 541px;
+    left: 1253px;
+    top: -86px;
+}
+
+.cloud4 {
+    position: absolute;
+    width: 600px;
+    right: 0;
+    bottom: 0;
+}
+
+.plane {
+    width: 1200px;
+
+    position: absolute;
+    right: 0;
+    top: -50px;
+}
+
+.cloudsAndPlane {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+main {
+    width: 100%;
+    position: absolute;
+    left: 120px;
+    top: 221px;
+}
+
+main > h1 {
+    width: 1000px;
+
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 58px;
+    display: flex;
+    align-items: center;
+    color: #454545;
+}
+
+main > h2 {
+    width: 595px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    color: #8A8A8A;
+}
+
+main > h3 {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 13px;
+    display: flex;
+    align-items: center;
+    color: #8A8A8A;
+}
+
+main > button {
+    background: linear-gradient(267.39deg, #1145FF 1.36%, #81E1FF 100%);
+    border-radius: 16px;
+
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:405px;
+    height: 89px;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
